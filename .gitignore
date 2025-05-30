@@ -1,50 +1,51 @@
-# Python
+# 🐍 Python bytecode & compiled files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# 🧪 Virtual environments
+venv/
 env/
+ENV/
+
+# 🏗️ Build / packaging
 build/
-develop-eggs/
 dist/
 downloads/
-eggs/
 .eggs/
+*.egg-info/
+*.egg
 lib/
 lib64/
 parts/
 sdist/
-var/
-wheels/
-*.egg-info/
+develop-eggs/
 .installed.cfg
-*.egg
+wheels/
+var/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
+# 📓 Jupyter notebooks
+.ipynb_checkpoints/
+*.tmp.ipynb
 
-# Dataset
-*.csv
-*.cvs
+# 📁 Dataset outputs (non i file originali!)
+data/output_*.csv
+data/*.tmp.csv
+*.tmp.csv
 
-# Virtual Environment
-venv/
-ENV/
+# 🌐 HTML or generated reports
+*.html
+*.pdf
 
-# IDE
+# 💻 IDE / Editor settings
 .idea/
 .vscode/
 
-# OS
+# 🖥️ OS / User-specific files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
+.Spotlight-V100/
+.Trashes/
 ehthumbs.db
 Thumbs.db
-
-# Output
-src/mappa_eventi_sismici.html
